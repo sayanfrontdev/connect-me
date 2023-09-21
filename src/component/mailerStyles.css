@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1550716839-7af1a71d6542?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff; 
+  }
+  
+  input,
+  textarea {
+    width: 96%;
+    padding: 10px;
+    background-color: #555; 
+    border: 1px solid #333; 
+    border-radius: 4px;
+    color: #fff; 
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border: none; 
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f70000;
+  }
+  
